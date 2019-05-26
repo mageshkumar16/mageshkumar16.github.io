@@ -1,0 +1,103 @@
+body {
+  background-color: #1e5799;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzNiNTk5OCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwYWNlZCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: linear-gradient(90deg, #3b5998, #00aced);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FF3B5998', endColorstr='#FF00ACED');
+}
+
+.social-wrap {
+  width: 325px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -162.5px;
+}
+.social-wrap button {
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 50px;
+  font-size: 1.25em;
+  transition: color .25s ease-out, background .25s ease-out, border-radius .25s ease-out;
+  box-shadow: 0px 27px 73px -10px rgba(0, 0, 0, 0.75);
+}
+.social-wrap button:hover {
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0px 27px 45px -10px rgba(0, 0, 0, 0.75);
+}
+.social-wrap .facebook {
+  color: #3b5998;
+  background-color: #fff;
+}
+.social-wrap .facebook:hover {
+  color: #fff;
+  background-color: #3b5998;
+}
+.social-wrap .facebook:active {
+  background-color: #fff;
+  color: #3b5998;
+}
+.social-wrap .twitter {
+  color: #00aced;
+  background-color: #fff;
+}
+.social-wrap .twitter:hover {
+  color: #fff;
+  background-color: #00aced;
+}
+.social-wrap .twitter:active {
+  background-color: #fff;
+  color: #00aced;
+}
+.social-wrap .google-plus {
+  color: #dd4b39;
+  background-color: #fff;
+}
+.social-wrap .google-plus:hover {
+  color: #fff;
+  background-color: #dd4b39;
+}
+.social-wrap .google-plus:active {
+  background-color: #fff;
+  color: #dd4b39;
+}
+.social-wrap .github {
+  color: #8B4513;
+  background-color: #fff;
+}
+.social-wrap .github:hover {
+  color: #fff;
+  background-color: #8B4513;
+}
+.social-wrap .github:active {
+  background-color: #fff;
+  color: #8B4513;
+}
+.social-wrap .codepen {
+  color: #000000;
+  background-color: #fff;
+}
+.social-wrap .codepen:hover {
+  color: #fff;
+  background-color: #000000;
+}
+.social-wrap .codepen:active {
+  background-color: #fff;
+  color: #000000;
+}
+.social-wrap .youtube {
+  color: #ae0000;
+  background-color: #fff;
+}
+.social-wrap .youtube:hover {
+  color: #fff;
+  background-color: #ae0000;
+}
+.social-wrap .youtube:active {
+  background-color: #fff;
+  color: #ae0000;
+}
